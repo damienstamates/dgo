@@ -1,4 +1,4 @@
-module github.com/damienfamed75/dgo
+module github.com/damienstamates/dgo
 
 go 1.12
 
