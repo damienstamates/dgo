@@ -7,8 +7,8 @@ import (
 	"log"
 	"time"
 
-	"github.com/dgraph-io/dgo"
-	"github.com/dgraph-io/dgo/protos/api"
+	"github.com/damienstamates/dgo"
+	"github.com/damienstamates/dgo/protos/api"
 	"google.golang.org/grpc"
 )
 

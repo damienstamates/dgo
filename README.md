@@ -1,4 +1,4 @@
-# dgo [![GoDoc](https://godoc.org/github.com/dgraph-io/dgo?status.svg)](https://godoc.org/github.com/dgraph-io/dgo) [![Build Status](https://teamcity.dgraph.io/guestAuth/app/rest/builds/buildType:(id:dgo_integration)/statusIcon.svg)](https://teamcity.dgraph.io/viewLog.html?buildTypeId=dgo_integration&buildId=lastFinished&guest=1)
+# dgo [![GoDoc](https://godoc.org/github.com/damienstamates/dgo?status.svg)](https://godoc.org/github.com/damienstamates/dgo) [![Build Status](https://teamcity.dgraph.io/guestAuth/app/rest/builds/buildType:(id:dgo_integration)/statusIcon.svg)](https://teamcity.dgraph.io/viewLog.html?buildTypeId=dgo_integration&buildId=lastFinished&guest=1)
 
 Official Dgraph Go client which communicates with the server using [gRPC](https://grpc.io/).
 
@@ -26,7 +26,7 @@ to understand how to run and work with Dgraph.
 ## Install
 
 ```sh
-go get -u -v github.com/dgraph-io/dgo
+go get -u -v github.com/damienstamates/dgo
 ```
 
 ## Using a client
@@ -128,7 +128,7 @@ if err != nil {
 ```
 
 For a more complete example, see
-[GoDoc](https://godoc.org/github.com/dgraph-io/dgo#example-package--SetObject).
+[GoDoc](https://godoc.org/github.com/damienstamates/dgo#example-package--SetObject).
 
 Sometimes, you only want to commit a mutation, without querying anything
 further. In such cases, you can use `mu.CommitNow = true` to indicate that the
